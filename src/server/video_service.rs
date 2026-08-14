@@ -301,6 +301,10 @@ fn create_capturer(
             }
             #[cfg(not(windows))]
             {
+                #[cfg(target_os = "macos")]
+                if !crate::ui_interface::is_can_screen_recording(false) {
+                    bail!("Failed to create capturer: no screen recording permission");
+                }
                 log::debug!("Create capturer from scrap");
                 return Ok(Box::new(
                     Capturer::new(display).with_context(|| "Failed to create capturer")?,
