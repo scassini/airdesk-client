@@ -8,6 +8,10 @@ airdesk is a rebranded distribution of [RustDesk](https://github.com/rustdesk/ru
 an open source remote desktop client, licensed under AGPL-3.0. Source code, build
 instructions, and this policy are published in this repository.
 
+## Contact
+
+For code signing matters: contact+airdesk@lejumo.com
+
 ## Roles
 
 | Role | Member(s) |
