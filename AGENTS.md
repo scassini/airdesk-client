@@ -1,5 +1,13 @@
 # RustDesk Guide
 
+## Building for Windows x64
+
+See `docs/WINDOWS_X64_BUILD.md` before starting a Windows x64 build —
+it covers required VS Build Tools components, mandatory FFI codegen
+steps not handled by `build.py`, icon/branding gotchas across four
+separate locations, and other pitfalls hit during the first successful
+build. Read it fully before troubleshooting from scratch.
+
 ## Project Layout
 
 ### Directory Structure
